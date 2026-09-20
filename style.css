@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(to bottom,#f8f5eb,#f3fa8e)
+}
+
+h1{
+    color : brown
+}
+h2, h3 {
+    color: rgb(153, 99, 38);
+}
+h1, h2, h3 {
+    line-height: 0.5;
+}
+
+p, ul, li, ol, table {
+    color: black;
+    font-size: 20px;
+    line-height: 1;
+} 
+p, table, img {
+    padding: 0px;
+    margin: 15px;
+}
+nav a {
+    display:inline;
+} 
+
+
+.wadah {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* .kotak {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+} */
