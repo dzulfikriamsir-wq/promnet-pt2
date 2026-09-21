@@ -5,6 +5,7 @@ body {
 h1{
     color : brown
 }
+
 h2, h3 {
     color: rgb(153, 99, 38);
 }
@@ -17,14 +18,15 @@ p, ul, li, ol, table {
     font-size: 20px;
     line-height: 1;
 } 
+
 p, table, img {
     padding: 0px;
     margin: 15px;
 }
+
 nav a {
     display:inline;
 } 
-
 
 .wadah {
     display: flex;
@@ -34,9 +36,46 @@ nav a {
     gap: 20px;
 }
 
-/* .kotak {
-    width: 100px;
-    height: 100px;
-    background-color: lightblue;
+.daftar-project {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.kartu-project {
+    width: 42%;
+    padding: 20px;
+    background-color: #ffffff;
+}
+/* Judul project */
+.kartu-project h3 {
+    color: brown;
+    font-size: 28px;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.gambar-project {
+    width: 100%;
+    height: 320px;
+    background-color: white);
+    margin: 0;
+    padding: 0;
+}
+
+.area-gambar {
+    width: 100%;
+    height: 260px;
+    background-color: white;
     text-align: center;
-} */
+}
+
+/* Deskripsi project */
+.kartu-project p {
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+}
